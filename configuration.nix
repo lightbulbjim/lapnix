@@ -16,6 +16,7 @@
 
   networking.hostName = "wowbagger"; # Define your hostname.
   networking.networkmanager.enable = true;
+  networking.firewall.enable = true;
 
   time.timeZone = "Australia/Sydney";
 
@@ -56,10 +57,7 @@
 
   programs.vim.defaultEditor = true;
 
-  # networking.firewall.enable = true;
-  # services.printing.enable = true;
-  # sound.enable = true;
-  # hardware.pulseaudio.enable = true;
+  services.printing.enable = true;
 
   services.xserver = {
     enable = true;
