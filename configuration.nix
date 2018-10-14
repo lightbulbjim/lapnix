@@ -43,16 +43,19 @@
     abcde
     cmus
     easytag
+    filezilla
 
     # Devel
     ruby
     vscode
 
-    # Misc apps
+    # Browsers
     firefox
+    qutebrowser
+
+    # Misc apps
     lastpass-cli
     ledger
-    qutebrowser
   ];
 
   programs.vim.defaultEditor = true;
