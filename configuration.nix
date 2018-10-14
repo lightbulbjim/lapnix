@@ -66,6 +66,8 @@
     xkbOptions = "caps:backspace";
   };
 
+  security.pam.services.gdm.enableGnomeKeyring = true;
+
   users.users.chris = {
     isNormalUser = true;
     extraGroups = [ "wheel" "networkmanager" ];
