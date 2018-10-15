@@ -33,12 +33,16 @@
     vim
     wget
 
+    # Laptop
+    tlp
+
     # Gnome
     gnomeExtensions.no-title-bar
     numix-gtk-theme
 
     # Games
     crawlTiles
+    dosbox
     nethack
     steam
     steam-run-native
@@ -69,7 +73,7 @@
   programs.vim.defaultEditor = true;
 
   services.printing.enable = true;
-
+  services.tlp.enable = true;
   services.xserver = {
     enable = true;
     displayManager.gdm.enable = true;
