@@ -23,6 +23,8 @@
   nixpkgs.config.allowUnfree = true;
   environment.systemPackages = with pkgs; [
     # Core
+    coreutils
+    file
     git
     links
     lsof
@@ -38,6 +40,8 @@
     # Games
     crawlTiles
     nethack
+    steam
+    steam-run-native
 
     # Music
     abcde
@@ -57,6 +61,10 @@
     lastpass-cli
     ledger
   ];
+
+  # Needed for Steam
+  hardware.opengl.driSupport32Bit = true;
+  hardware.pulseaudio.support32Bit = true;
 
   programs.vim.defaultEditor = true;
 
