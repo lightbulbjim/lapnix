@@ -62,6 +62,10 @@
     ruby
     vscode
 
+    # Ebooks
+    calibre
+    sigil
+
     # Browsers
     firefox
     qutebrowser
