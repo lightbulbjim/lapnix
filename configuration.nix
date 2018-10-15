@@ -46,6 +46,7 @@
     nethack
     steam
     steam-run-native
+    wesnoth
 
     # Music
     abcde
