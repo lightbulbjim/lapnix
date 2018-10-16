@@ -82,7 +82,15 @@
   ];
 
   fonts.fonts = with pkgs; [
+    cm_unicode
+    culmus
+    dejavu_fonts
+    freefont_ttf
+    google-fonts
+    liberation_ttf
+    proggyfonts
     roboto
+    terminus_font_ttf
   ];
 
   # Needed for Steam
