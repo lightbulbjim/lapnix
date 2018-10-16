@@ -66,6 +66,11 @@
     calibre
     sigil
 
+    # CAD
+    freecad
+    kicad
+    librecad
+
     # Browsers
     firefox
     qutebrowser
@@ -73,6 +78,11 @@
     # Misc apps
     lastpass-cli
     ledger
+    libreoffice
+  ];
+
+  fonts.fonts = with pkgs; [
+    roboto
   ];
 
   # Needed for Steam
