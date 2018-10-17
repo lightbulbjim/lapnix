@@ -83,6 +83,7 @@
 
   fonts.fonts = with pkgs; [
     cm_unicode
+    corefonts
     culmus
     dejavu_fonts
     freefont_ttf
@@ -91,6 +92,7 @@
     proggyfonts
     roboto
     terminus_font_ttf
+    xorg.fontbhlucidatypewriter75dpi
   ];
 
   # Needed for Steam
