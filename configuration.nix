@@ -25,6 +25,7 @@
   time.timeZone = "Australia/Sydney";
 
   nixpkgs.config.allowUnfree = true;
+  nixpkgs.config.pulseaudio = true;
   environment.systemPackages = with pkgs; [
     # Core
     coreutils
@@ -41,8 +42,8 @@
     tlp
 
     # Gnome
-    gnomeExtensions.no-title-bar
-    numix-gtk-theme
+#    gnomeExtensions.no-title-bar
+#    numix-gtk-theme
 
     # Games
     crawlTiles
@@ -105,8 +106,9 @@
   services.tlp.enable = true;
   services.xserver = {
     enable = true;
-    displayManager.gdm.enable = true;
-    desktopManager.gnome3.enable = true;
+#    displayManager.gdm.enable = true;
+#    desktopManager.gnome3.enable = true;
+    desktopManager.xfce.enable = true;
     xkbOptions = "caps:backspace";
   };
 
