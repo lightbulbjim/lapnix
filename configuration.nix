@@ -83,6 +83,7 @@
     ledger
     libreoffice
     skype
+    bibletime
   ];
 
   fonts.fonts = with pkgs; [
