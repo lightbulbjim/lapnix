@@ -41,6 +41,7 @@
     tlp
 
     # Gnome
+    gnomeExtensions.caffeine
     gnomeExtensions.impatience
     gnomeExtensions.no-title-bar
     numix-gtk-theme
