@@ -81,6 +81,7 @@
     lastpass-cli
     ledger
     libreoffice
+    skype
   ];
 
   fonts.fonts = with pkgs; [
