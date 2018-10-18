@@ -28,6 +28,7 @@
   environment.systemPackages = with pkgs; [
     # Core
     coreutils
+    cryptsetup
     file
     git
     links
