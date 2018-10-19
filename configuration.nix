@@ -14,9 +14,8 @@
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
 
-  boot.kernel.sysctl = {
-    "vm.swappiness" = 1;
-  };
+  # Note sysctl keys must be strings.
+  boot.kernel.sysctl."vm_swappiness" = 1;
 
   networking.hostName = "wowbagger"; # Define your hostname.
   networking.networkmanager.enable = true;
@@ -108,12 +107,18 @@
   programs.vim.defaultEditor = true;
 
   services.printing.enable = true;
-  services.tlp.enable = true;
   services.xserver = {
     enable = true;
     displayManager.gdm.enable = true;
     desktopManager.gnome3.enable = true;
     xkbOptions = "caps:backspace";
+  };
+  services.tlp = {
+    enable = true;
+    extraConfig = "
+      CPU_SCALING_GOVERNOR_ON_AC=performance
+      CPU_SCALING_GOVERNOR_ON_BAT=powersave
+    ";
   };
 
   security.pam.services.gdm.enableGnomeKeyring = true;
