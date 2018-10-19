@@ -33,6 +33,7 @@
     git
     links
     lsof
+    powertop
     screen
     tree
     vim
