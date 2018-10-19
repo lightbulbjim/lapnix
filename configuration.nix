@@ -15,7 +15,6 @@
   boot.loader.efi.canTouchEfiVariables = true;
 
   boot.kernel.sysctl = {
-    "vm.dirty_writeback_centisecs" = 1500;
     "vm.swappiness" = 1;
   };
 
