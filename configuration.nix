@@ -79,6 +79,7 @@
     qutebrowser
 
     # Misc apps
+    gimp-with-plugins
     lastpass-cli
     ledger
     libreoffice
