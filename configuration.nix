@@ -35,8 +35,13 @@
     powertop
     screen
     tree
+    usbutils
     vim
     wget
+
+    # Printing
+    cups
+    cups-filters
 
     # Laptop
     tlp
@@ -139,12 +144,15 @@
         screensaver=''
     ";
   };
+
+  # USB devices:
+  #   04f9:0033 - Brother HL-2140 printer.
   services.tlp = {
     enable = true;
-    extraConfig = "
+    extraConfig = ''
       CPU_SCALING_GOVERNOR_ON_AC=performance
       CPU_SCALING_GOVERNOR_ON_BAT=powersave
-    ";
+    '';
   };
 
   security.pam.services.gdm.enableGnomeKeyring = true;
