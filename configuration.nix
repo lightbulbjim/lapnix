@@ -42,6 +42,7 @@
     # Printing
     cups
     cups-filters
+    brlaser
 
     # Laptop
     tlp
