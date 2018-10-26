@@ -48,6 +48,7 @@
     tlp
 
     # Gnome
+    gnome3.zenity
     gnomeExtensions.caffeine
     gnomeExtensions.impatience
     gnomeExtensions.no-title-bar
@@ -57,6 +58,7 @@
     crawlTiles
     dosbox
     nethack
+    openrct2
     steam
     steam-run-native
     wesnoth
@@ -68,6 +70,8 @@
     filezilla
 
     # Devel
+    gcc
+    gnumake
     ruby
     vscode
 
