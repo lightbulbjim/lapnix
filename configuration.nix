@@ -52,6 +52,7 @@
     gnomeExtensions.caffeine
     gnomeExtensions.impatience
     gnomeExtensions.no-title-bar
+    gnomeExtensions.nohotcorner
     numix-gtk-theme
 
     # Games
