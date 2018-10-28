@@ -90,6 +90,7 @@
 
     # Misc apps
     gimp-with-plugins
+    inkscape
     lastpass-cli
     ledger
     libreoffice
