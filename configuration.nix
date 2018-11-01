@@ -119,7 +119,12 @@
 
   programs.vim.defaultEditor = true;
 
-  services.openssh.enable = false;
+  services.openssh = {
+    enable = false;
+    challengeResponseAuthentication = false;
+    passwordAuthentication = false;
+    permitRootLogin = false;
+  };
 
   services.printing = {
     enable = true;
