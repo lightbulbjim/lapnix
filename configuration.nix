@@ -39,11 +39,6 @@
     vim
     wget
 
-    # Printing
-    cups
-    cups-filters
-    brlaser
-
     # Laptop
     tlp
 
@@ -73,6 +68,7 @@
     # Devel
     gcc
     gnumake
+    python3
     ruby
     vscode
 
@@ -90,6 +86,7 @@
     qutebrowser
 
     # Misc apps
+    ghostscript
     gimp-with-plugins
     inkscape
     lastpass-cli
@@ -119,7 +116,16 @@
 
   programs.vim.defaultEditor = true;
 
-  services.printing.enable = true;
+  services.printing = {
+    enable = true;
+    drivers = with pkgs; [ 
+      brlaser
+      gutenprint
+      gutenprintBin
+      hplip
+    ];
+  };
+
   services.xserver = {
     enable = true;
     xkbOptions = "caps:backspace";
