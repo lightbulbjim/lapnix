@@ -119,7 +119,7 @@
 
   programs.vim.defaultEditor = true;
 
-  services.openssh.enable = true;
+  services.openssh.enable = false;
 
   services.printing = {
     enable = true;
@@ -163,8 +163,6 @@
     ";
   };
 
-  # USB devices:
-  #   04f9:0033 - Brother HL-2140 printer.
   services.tlp = {
     enable = true;
     extraConfig = ''
