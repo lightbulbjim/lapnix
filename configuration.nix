@@ -32,6 +32,7 @@
     coreutils
     cryptsetup
     file
+    fortune
     git
     links
     lsof
@@ -67,6 +68,8 @@
     cmus
     easytag
     filezilla
+    flac
+    vorbisTools
 
     # Devel
     gcc
@@ -91,6 +94,7 @@
     # Misc apps
     ghostscript
     gimp-with-plugins
+    graphicsmagick-imagemagick-compat
     inkscape
     lastpass-cli
     ledger
@@ -129,6 +133,7 @@
   services.printing = {
     enable = true;
     drivers = with pkgs; [ 
+      brgenml1cupswrapper
       brlaser
       gutenprint
       gutenprintBin
