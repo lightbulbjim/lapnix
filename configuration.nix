@@ -103,19 +103,22 @@
     bibletime
   ];
 
-  fonts.fonts = with pkgs; [
-    cm_unicode
-    corefonts
-    culmus
-    dejavu_fonts
-    freefont_ttf
-    google-fonts
-    liberation_ttf
-    proggyfonts
-    roboto
-    terminus_font_ttf
-    xorg.fontbhlucidatypewriter75dpi
-  ];
+  fonts = {
+    enableFontDir = true;
+    fonts = with pkgs; [
+      cm_unicode
+      corefonts
+      culmus
+      dejavu_fonts
+      freefont_ttf
+      google-fonts
+      liberation_ttf
+      proggyfonts
+      roboto
+      terminus_font_ttf
+      xorg.fontbhlucidatypewriter75dpi
+    ];
+  };
 
   # Needed for Steam
   hardware.opengl.driSupport32Bit = true;
