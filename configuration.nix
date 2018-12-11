@@ -92,6 +92,7 @@
     qutebrowser
 
     # Misc apps
+    bibletime
     ghostscript
     gimp-with-plugins
     graphicsmagick-imagemagick-compat
@@ -100,7 +101,7 @@
     ledger
     libreoffice
     skype
-    bibletime
+    thunderbird
   ];
 
   fonts = {
@@ -143,6 +144,14 @@
       hplip
     ];
   };
+
+#  services.gnome3.evolution-data-server.enable = false;
+  environment.gnome3.excludePackages = with pkgs.gnome3; [
+    evolution
+    evolution-data-server
+    gnome-calendar
+    gnome-contacts
+  ];
 
   services.xserver = {
     enable = true;
