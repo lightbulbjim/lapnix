@@ -39,6 +39,7 @@
     powertop
     screen
     tree
+    unzip
     usbutils
     vim
     wget
@@ -55,6 +56,7 @@
     numix-gtk-theme
 
     # Games
+    brogue
     crawlTiles
     dosbox
     nethack
@@ -80,6 +82,7 @@
 
     # Ebooks
     calibre
+    python27Packages.pycrypto
     sigil
 
     # CAD
