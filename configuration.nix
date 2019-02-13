@@ -104,6 +104,7 @@
     ledger
     libreoffice
     skype
+    slack-dark
     thunderbird
   ];
 
