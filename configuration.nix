@@ -26,6 +26,7 @@
 
   time.timeZone = "Australia/Sydney";
 
+  nix.useSandbox = true;
   nixpkgs.config.allowUnfree = true;
   environment.systemPackages = with pkgs; [
     # Core
@@ -36,6 +37,7 @@
     git
     links
     lsof
+    parallel
     powertop
     screen
     tree
@@ -69,8 +71,12 @@
     abcde
     cmus
     easytag
+    ffmpeg
     filezilla
     flac
+    lame
+    mediainfo
+    mplayer
     vorbisTools
 
     # Devel
@@ -149,7 +155,6 @@
     ];
   };
 
-#  services.gnome3.evolution-data-server.enable = false;
   environment.gnome3.excludePackages = with pkgs.gnome3; [
     evolution
     evolution-data-server
