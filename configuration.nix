@@ -202,6 +202,8 @@
     '';
   };
 
+  services.flatpak.enable = true;
+
   security.pam.services.gdm.enableGnomeKeyring = true;
 
   users.users.chris = {
