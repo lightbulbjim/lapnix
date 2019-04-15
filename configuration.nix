@@ -50,7 +50,9 @@
     tlp
 
     # Gnome
+    gnome3.cheese
     gnome3.geary
+    gnome3.gnome-boxes
     gnome3.zenity
     gnomeExtensions.caffeine
     gnomeExtensions.no-title-bar
