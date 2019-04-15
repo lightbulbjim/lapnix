@@ -52,7 +52,6 @@
     # Gnome
     gnome3.zenity
     gnomeExtensions.caffeine
-    gnomeExtensions.impatience
     gnomeExtensions.no-title-bar
     gnomeExtensions.nohotcorner
     numix-gtk-theme
@@ -61,6 +60,7 @@
     brogue
     crawlTiles
     dosbox
+    hyperrogue
     nethack
     openrct2
     steam
