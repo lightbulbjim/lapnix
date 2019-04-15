@@ -50,6 +50,7 @@
     tlp
 
     # Gnome
+    gnome3.geary
     gnome3.zenity
     gnomeExtensions.caffeine
     gnomeExtensions.no-title-bar
@@ -111,7 +112,6 @@
     libreoffice
     skype
     slack-dark
-    thunderbird
   ];
 
   fonts = {
@@ -157,9 +157,6 @@
 
   environment.gnome3.excludePackages = with pkgs.gnome3; [
     evolution
-    evolution-data-server
-    gnome-calendar
-    gnome-contacts
   ];
 
   services.xserver = {
