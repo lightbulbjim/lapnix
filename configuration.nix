@@ -53,9 +53,9 @@
     gnome3.cheese
     gnome3.geary
     gnome3.gnome-boxes
+    gnome3.polari
     gnome3.zenity
     gnomeExtensions.caffeine
-    gnomeExtensions.no-title-bar
     gnomeExtensions.nohotcorner
     numix-gtk-theme
 
@@ -203,7 +203,10 @@
 
   services.flatpak.enable = true;
 
-  security.pam.services.gdm.enableGnomeKeyring = true;
+  security.pam.services = {
+    gdm.enableGnomeKeyring = true;
+    passwd.enableGnomeKeyring = true;
+  };
 
   users.users.chris = {
     isNormalUser = true;
