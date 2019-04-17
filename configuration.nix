@@ -53,7 +53,7 @@
     gnome3.cheese
     gnome3.geary
     gnome3.gnome-boxes
-    gnome3.polari
+    gnome3.gnome-packagekit
     gnome3.zenity
     gnomeExtensions.caffeine
     gnomeExtensions.nohotcorner
@@ -83,7 +83,9 @@
     vorbisTools
 
     # Devel
+    flatpak-builder
     gcc
+    gnome-builder
     gnumake
     python3
     ruby
@@ -103,6 +105,11 @@
     firefox
     qutebrowser
 
+    # Chat
+    hexchat
+    skype
+    slack-dark
+
     # Misc apps
     bibletime
     ghostscript
@@ -112,8 +119,6 @@
     lastpass-cli
     ledger
     libreoffice
-    skype
-    slack-dark
   ];
 
   fonts = {
