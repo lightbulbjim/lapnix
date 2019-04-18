@@ -171,31 +171,6 @@
     xkbOptions = "caps:backspace";
     displayManager.gdm.enable = true;
     desktopManager.gnome3.enable = true;
-    desktopManager.gnome3.extraGSettingsOverrides = "
-      [org/gnome/desktop/wm/keybindings]
-        unmaximize=['<Super>Down', '<Alt>F5', '<Super>j']
-        maximize=['<Super>Up', '<Super>k']
-        minimize=@as []
-        switch-applications=['<Super>Tab', '<Alt>Tab', '<Alt>l', '<Alt>Right']
-        switch-applications-backward=['<Shift><Super>Tab', '<Shift><Alt>Tab', '<Alt>h', '<Alt>Left']
-        switch-to-workspace-left=['<Control><Alt>Left', '<Control><Alt>h']
-        switch-to-workspace-down=['<Super>Page_Down', '<Control><Alt>Down', '<Control><Alt>j']
-        switch-to-workspace-up=['<Super>Page_Up', '<Control><Alt>Up', '<Control><Alt>k']
-        switch-to-workspace-right=['<Control><Alt>Right', '<Control><Alt>l']
-        move-to-workspace-left=['<Control><Shift><Alt>Left', '<Control><Shift><Alt>h']
-        move-to-workspace-down=['<Super><Shift>Page_Down', '<Control><Shift><Alt>Down', '<Control><Alt><Shift>j']
-        move-to-workspace-up=['<Super><Shift>Page_Up', '<Control><Shift><Alt>Up', '<Control><Shift><Alt>k']
-        move-to-workspace-right=['<Control><Shift><Alt>Right', '<Control><Shift><Alt>l']
-        move-to-monitor-left=['<Super><Shift>Left', '<Super><Shift>h']
-        move-to-monitor-down=['<Super><Shift>Down', '<Super><Shift>j']
-        move-to-monitor-up=['<Super><Shift>Up', '<Super><Shift>k']
-        move-to-monitor-right=['<Super><Shift>Right', '<Super><Shift>l']
-      [org/gnome/mutter/keybindings]
-        toggle-tiled-left=['<Super>Left', '<Super>h']
-        toggle-tiled-right=['<Super>Right', '<Super>l']
-      [org/gnome/settings-daemon/plugins/media-keys]
-        screensaver=''
-    ";
   };
 
   services.tlp = {
