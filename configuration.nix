@@ -106,6 +106,7 @@
     qutebrowser
 
     # Chat
+    fractal
     hexchat
     skype
     slack-dark
@@ -119,6 +120,7 @@
     lastpass-cli
     ledger
     libreoffice
+    wl-clipboard
   ];
 
   fonts = {
