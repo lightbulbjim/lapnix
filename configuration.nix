@@ -36,6 +36,7 @@
     fortune
     git
     links
+    lshw
     lsof
     parallel
     powertop
