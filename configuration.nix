@@ -58,7 +58,6 @@
     gnome3.zenity
     gnomeExtensions.caffeine
     gnomeExtensions.nohotcorner
-    numix-gtk-theme
 
     # Games
     brogue
