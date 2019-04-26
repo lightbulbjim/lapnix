@@ -87,6 +87,7 @@
     gcc
     gnome-builder
     gnumake
+    nix-review
     python3
     ruby
     vscode
