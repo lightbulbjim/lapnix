@@ -141,14 +141,13 @@
     ];
   };
 
-  # Needed for Steam
   hardware = {
     opengl = {
-      driSupport32Bit = true;
+      driSupport32Bit = true;  # Needed for Steam
     };
     pulseaudio = {
       enable = true;
-      support32Bit = true;
+      support32Bit = true;  # Needed for Steam
       extraConfig = ''
         load-module module-switch-on-connect
       '';
