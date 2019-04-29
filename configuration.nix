@@ -54,7 +54,6 @@
     gnome3.cheese
     gnome3.geary
     gnome3.gnome-boxes
-    gnome3.gnome-packagekit
     gnome3.zenity
     gnomeExtensions.caffeine
     gnomeExtensions.nohotcorner
@@ -155,6 +154,8 @@
   };
 
   programs.vim.defaultEditor = true;
+
+  services.packagekit.enable = true;
 
   services.openssh = {
     enable = false;
