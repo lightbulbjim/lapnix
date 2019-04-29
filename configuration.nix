@@ -128,6 +128,7 @@
   ];
 
   programs.vim.defaultEditor = true;
+  programs.plotinus.enable = true;
 
   fonts = {
     enableFontDir = true;
