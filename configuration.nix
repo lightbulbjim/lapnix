@@ -140,17 +140,14 @@
     ];
   };
 
-  hardware = {
-    opengl = {
-      driSupport32Bit = true;  # Needed for Steam
-    };
-    pulseaudio = {
-      enable = true;
-      support32Bit = true;  # Needed for Steam
-      extraConfig = ''
-        load-module module-switch-on-connect
-      '';
-    };
+  hardware.opengl.driSupport32Bit = true;  # Needed for Steam
+
+  hardware.pulseaudio = {
+    enable = true;
+    support32Bit = true;  # Needed for Steam
+    extraConfig = ''
+      load-module module-switch-on-connect
+    '';
   };
 
   programs.vim.defaultEditor = true;
