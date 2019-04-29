@@ -183,6 +183,8 @@
     desktopManager.gnome3.enable = true;
   };
 
+  services.gnome3.gpaste.enable = true;
+
   services.tlp = {
     enable = true;
     extraConfig = ''
