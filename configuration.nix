@@ -8,6 +8,7 @@
   imports =
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
+      ./gnome.nix
     ];
 
   # Use the systemd-boot EFI boot loader.
@@ -46,9 +47,6 @@
     usbutils
     vim
     wget
-
-    # Laptop
-    tlp
 
     # Gnome
     gnome3.cheese
