@@ -123,6 +123,12 @@
     wl-clipboard
   ];
 
+  environment.gnome3.excludePackages = with pkgs.gnome3; [
+    evolution
+  ];
+
+  programs.vim.defaultEditor = true;
+
   fonts = {
     enableFontDir = true;
     fonts = with pkgs; [
@@ -150,8 +156,6 @@
     '';
   };
 
-  programs.vim.defaultEditor = true;
-
   services.packagekit.enable = true;
 
   services.openssh = {
@@ -163,7 +167,7 @@
 
   services.printing = {
     enable = true;
-    drivers = with pkgs; [ 
+    drivers = with pkgs; [
       brgenml1cupswrapper
       brlaser
       gutenprint
@@ -171,10 +175,6 @@
       hplip
     ];
   };
-
-  environment.gnome3.excludePackages = with pkgs.gnome3; [
-    evolution
-  ];
 
   services.xserver = {
     enable = true;
