@@ -146,10 +146,13 @@
   };
 
   hardware.opengl.driSupport32Bit = true;  # Needed for Steam
+  hardware.bluetooth.enable = true;
 
   hardware.pulseaudio = {
     enable = true;
+    package = pkgs.pulseaudioFull;
     support32Bit = true;  # Needed for Steam
+    extraModules = [ pkgs.pulseaudio-modules-bt ];
     extraConfig = ''
       load-module module-switch-on-connect
     '';
