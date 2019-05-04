@@ -124,6 +124,10 @@
     evolution
   ];
 
+  environment.variables = {
+    MOZ_USE_XINPUT2 = "1";
+  };
+
   programs.vim.defaultEditor = true;
   programs.plotinus.enable = true;
 
