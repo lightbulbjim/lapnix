@@ -105,7 +105,7 @@
     # Chat
     fractal
     hexchat
-    skype
+    #skype
     slack-dark
 
     # Misc apps
@@ -160,7 +160,6 @@
   services.flatpak.enable = true;
   services.packagekit.enable = true;
   services.gnome3.gpaste.enable = true;
-  services.fprintd.enable = true;
 
   services.openssh = {
     enable = false;
@@ -198,7 +197,6 @@
   security.pam.services = {
     gdm.enableGnomeKeyring = true;
     passwd.enableGnomeKeyring = true;
-    chris.fprintAuth = true;
   };
 
   users.users.chris = {
