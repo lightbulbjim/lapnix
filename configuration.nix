@@ -157,7 +157,10 @@
     '';
   };
 
+  services.flatpak.enable = true;
   services.packagekit.enable = true;
+  services.gnome3.gpaste.enable = true;
+  services.fprintd.enable = true;
 
   services.openssh = {
     enable = false;
@@ -184,8 +187,6 @@
     desktopManager.gnome3.enable = true;
   };
 
-  services.gnome3.gpaste.enable = true;
-
   services.tlp = {
     enable = true;
     extraConfig = ''
@@ -194,11 +195,10 @@
     '';
   };
 
-  services.flatpak.enable = true;
-
   security.pam.services = {
     gdm.enableGnomeKeyring = true;
     passwd.enableGnomeKeyring = true;
+    chris.fprintAuth = true;
   };
 
   users.users.chris = {
