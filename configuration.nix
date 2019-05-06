@@ -16,6 +16,14 @@
 
   # Note sysctl keys must be strings.
   boot.kernel.sysctl."vm_swappiness" = 1;
+  boot.kernelPatches = [ {
+    name = "elan-pointer";
+    patch = null;
+    extraConfig = ''
+      MOUSE_PS2_ELANTECH_SMBUS y
+      MOUSE_ELAN_I2C_SMBUS y
+    '';
+  } ];
 
   networking.hostName = "wowbagger"; # Define your hostname.
   networking.networkmanager.enable = true;
