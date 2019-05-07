@@ -137,6 +137,7 @@
 
   programs.vim.defaultEditor = true;
   programs.plotinus.enable = true;
+  programs.gphoto2.enable = true;
 
   fonts = {
     enableFontDir = true;
@@ -171,6 +172,7 @@
   services.flatpak.enable = true;
   services.packagekit.enable = true;
   services.gnome3.gpaste.enable = true;
+  services.usbmuxd.enable = true;
 
   services.openssh = {
     enable = false;
@@ -212,7 +214,7 @@
 
   users.users.chris = {
     isNormalUser = true;
-    extraGroups = [ "wheel" "networkmanager" ];
+    extraGroups = [ "wheel" "networkmanager" "camera" ];
   };
 
   # This value determines the NixOS release with which your system is to be
