@@ -113,7 +113,7 @@
     # Chat
     fractal
     hexchat
-    #skype
+    skype
     slack-dark
 
     # Misc apps
