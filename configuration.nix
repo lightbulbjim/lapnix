@@ -20,7 +20,6 @@
     name = "elan-pointer";
     patch = null;
     extraConfig = ''
-      MOUSE_PS2_ELANTECH_SMBUS y
       MOUSE_ELAN_I2C_SMBUS y
     '';
   } ];
