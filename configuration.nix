@@ -115,6 +115,10 @@
     skype
     slack-dark
 
+    # Photography
+    rapid-photo-downloader
+    shotwell
+
     # Misc apps
     bibletime
     ghostscript
@@ -129,6 +133,7 @@
 
   environment.gnome3.excludePackages = with pkgs.gnome3; [
     evolution
+    gnome-photos
   ];
 
   environment.variables = {
