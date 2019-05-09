@@ -90,6 +90,8 @@
     gcc
     gnome-builder
     gnumake
+    nix-prefetch-github
+    nix-prefetch-scripts
     nix-review
     python3
     ruby
