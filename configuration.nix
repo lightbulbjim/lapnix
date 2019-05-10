@@ -23,6 +23,7 @@
       MOUSE_ELAN_I2C_SMBUS y
     '';
   } ];
+  boot.cleanTmpDir = true;
 
   networking.hostName = "wowbagger"; # Define your hostname.
   networking.networkmanager.enable = true;
