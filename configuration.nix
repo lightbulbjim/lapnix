@@ -38,6 +38,7 @@
   nixpkgs.config.allowUnfree = true;
   environment.systemPackages = with pkgs; [
     # Core
+    bind
     coreutils
     cryptsetup
     file
