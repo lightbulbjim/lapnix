@@ -69,6 +69,7 @@
     crawlTiles
     dosbox
     hyperrogue
+    infra-arcana
     nethack
     openrct2
     steam
