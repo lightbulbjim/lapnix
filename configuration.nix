@@ -69,7 +69,7 @@
     crawlTiles
     dosbox
     hyperrogue
-    infra-arcana
+    #infra-arcana
     nethack
     openrct2
     steam
@@ -115,10 +115,12 @@
     qutebrowser
 
     # Chat
+    communi
     fractal
     hexchat
     skype
     slack-dark
+
 
     # Photography
     rapid-photo-downloader
