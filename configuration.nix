@@ -121,6 +121,7 @@
     shotwell
 
     # Misc apps
+    appimage-run
     bibletime
     ghostscript
     gimp-with-plugins
