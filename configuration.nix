@@ -113,12 +113,8 @@
     qutebrowser
 
     # Chat
-    communi
-    fractal
-    hexchat
     skype
     slack-dark
-
 
     # Photography
     rapid-photo-downloader
