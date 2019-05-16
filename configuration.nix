@@ -87,6 +87,7 @@
     vorbisTools
 
     # Devel
+    cquery
     flatpak-builder
     gcc
     gnome-builder
