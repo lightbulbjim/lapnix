@@ -32,8 +32,6 @@
     allowPing = false;
   };
 
-  time.timeZone = "Australia/Sydney";
-
   nix.useSandbox = true;
   nixpkgs.config.allowUnfree = true;
   environment.systemPackages = with pkgs; [
