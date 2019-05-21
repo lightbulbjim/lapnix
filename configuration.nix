@@ -98,6 +98,7 @@
     python3
     ruby
     vscode
+    zeal
 
     # Ebooks
     calibre
@@ -136,6 +137,7 @@
 
   environment.gnome3.excludePackages = with pkgs.gnome3; [
     evolution
+    gnome-music
     gnome-photos
   ];
 
