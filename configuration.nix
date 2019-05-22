@@ -217,6 +217,8 @@
     '';
   };
 
+  i18n.consoleUseXkbConfig = true;
+
   security.pam.services = {
     gdm.enableGnomeKeyring = true;
     passwd.enableGnomeKeyring = true;
