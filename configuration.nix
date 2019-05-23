@@ -45,6 +45,7 @@
     links
     lshw
     lsof
+    nix-index
     parallel
     powertop
     screen
