@@ -116,6 +116,7 @@
     qutebrowser
 
     # Chat
+    hexchat
     skype
     slack-dark
 
