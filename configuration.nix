@@ -134,6 +134,7 @@
     lastpass-cli
     ledger
     libreoffice
+    meteo
     wl-clipboard
   ];
 
@@ -141,10 +142,12 @@
     evolution
     gnome-music
     gnome-photos
+    gnome-weather
   ];
 
   environment.variables = {
     MOZ_USE_XINPUT2 = "1";
+    MOZ_ENABLE_WAYLAND = "1";
   };
 
   programs.vim.defaultEditor = true;
