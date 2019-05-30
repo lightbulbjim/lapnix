@@ -127,6 +127,7 @@
     # Misc apps
     appimage-run
     bibletime
+    celestia
     ghostscript
     gimp-with-plugins
     graphicsmagick-imagemagick-compat
@@ -232,6 +233,7 @@
   };
 
   users.users.chris = {
+    description = "Chris";
     isNormalUser = true;
     extraGroups = [ "wheel" "networkmanager" "camera" ];
   };
