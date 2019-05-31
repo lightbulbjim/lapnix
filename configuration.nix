@@ -136,6 +136,7 @@
     ledger
     libreoffice
     meteo
+    tilix
     wl-clipboard
   ];
 
