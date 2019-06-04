@@ -16,16 +16,16 @@
 
   # Note sysctl keys must be strings.
   boot.kernel.sysctl."vm_swappiness" = 1;
-  boot.kernelPatches = [ {
-    name = "elan-pointer";
-    patch = null;
-    extraConfig = ''
-      MOUSE_ELAN_I2C_SMBUS y
-    '';
-  } ];
+#  boot.kernelPatches = [ {
+#    name = "elan-pointer";
+#    patch = null;
+#    extraConfig = ''
+#      MOUSE_ELAN_I2C_SMBUS y
+#    '';
+#  } ];
   boot.cleanTmpDir = true;
 
-  networking.hostName = "wowbagger"; # Define your hostname.
+  networking.hostName = "oolon";
   networking.networkmanager.enable = true;
   networking.firewall = {
     enable = true;
@@ -238,6 +238,6 @@
   # compatible, in order to avoid breaking some software such as database
   # servers. You should change this only after NixOS release notes say you
   # should.
-  system.stateVersion = "18.09"; # Did you read the comment?
+  system.stateVersion = "19.03"; # Did you read the comment?
 
 }
