@@ -16,13 +16,6 @@
 
   # Note sysctl keys must be strings.
   boot.kernel.sysctl."vm_swappiness" = 1;
-#  boot.kernelPatches = [ {
-#    name = "elan-pointer";
-#    patch = null;
-#    extraConfig = ''
-#      MOUSE_ELAN_I2C_SMBUS y
-#    '';
-#  } ];
   boot.cleanTmpDir = true;
 
   networking.hostName = "oolon";
