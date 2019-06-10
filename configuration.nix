@@ -50,6 +50,7 @@
     gnome3.cheese
     gnome3.geary
     gnome3.gnome-boxes
+    gnome3.gnome-dictionary
     gnome3.zenity
     gnomeExtensions.caffeine
     gnomeExtensions.nohotcorner
@@ -108,6 +109,7 @@
 
     # Chat
     hexchat
+    riot-desktop
     skype
     slack-dark
 
