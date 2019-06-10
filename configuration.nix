@@ -59,6 +59,7 @@
     brogue
     crawlTiles
     dosbox
+    freeciv_gtk
     hyperrogue
     #infra-arcana
     nethack
