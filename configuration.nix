@@ -148,7 +148,6 @@
   };
 
   programs.vim.defaultEditor = true;
-  programs.plotinus.enable = true;
   programs.gphoto2.enable = true;
 
   fonts = {
