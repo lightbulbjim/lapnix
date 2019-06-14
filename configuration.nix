@@ -132,6 +132,7 @@
     meteo
     tilix
     wl-clipboard
+    youtube-dl
   ];
 
   environment.gnome3.excludePackages = with pkgs.gnome3; [
