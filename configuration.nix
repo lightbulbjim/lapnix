@@ -61,24 +61,24 @@
     dosbox
     freeciv_gtk
     hyperrogue
-    #infra-arcana
     nethack
     openrct2
     steam
     steam-run-native
     wesnoth
 
-    # Music
+    # Multimedia
     abcde
     cmus
     easytag
     ffmpeg
     filezilla
     flac
+    gnome-mpv
     lame
     mediainfo
-    mplayer
     vorbisTools
+    youtube-dl
 
     # Devel
     cquery
@@ -132,7 +132,6 @@
     meteo
     tilix
     wl-clipboard
-    youtube-dl
   ];
 
   environment.gnome3.excludePackages = with pkgs.gnome3; [
@@ -141,6 +140,11 @@
     gnome-photos
     gnome-weather
   ];
+
+  environment.shellAliases = {
+    mpv = "gnome-mpv";
+    mplayer = "gnome-mpv";
+  }
 
   environment.variables = {
     MOZ_USE_XINPUT2 = "1";
