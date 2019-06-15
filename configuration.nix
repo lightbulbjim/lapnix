@@ -74,7 +74,7 @@
     ffmpeg
     filezilla
     flac
-    gnome-mpv
+    mpv
     lame
     mediainfo
     vorbisTools
@@ -142,9 +142,8 @@
   ];
 
   environment.shellAliases = {
-    mpv = "gnome-mpv";
-    mplayer = "gnome-mpv";
-  }
+    mplayer = "mpv";
+  };
 
   environment.variables = {
     MOZ_USE_XINPUT2 = "1";
