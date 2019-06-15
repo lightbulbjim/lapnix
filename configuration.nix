@@ -74,6 +74,7 @@
     ffmpeg
     filezilla
     flac
+    handbrake
     mpv
     lame
     mediainfo
