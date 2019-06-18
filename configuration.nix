@@ -63,6 +63,7 @@
     hyperrogue
     nethack
     openrct2
+    openttd
     steam
     steam-run-native
     wesnoth
