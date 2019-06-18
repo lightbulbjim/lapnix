@@ -116,6 +116,8 @@
     slack-dark
 
     # Photography
+    gimp-with-plugins
+    graphicsmagick-imagemagick-compat
     rapid-photo-downloader
     shotwell
 
@@ -124,14 +126,13 @@
     bibletime
     celestia
     ghostscript
-    gimp-with-plugins
-    graphicsmagick-imagemagick-compat
     inkscape
     lastpass-cli
     ledger
     libreoffice
     meteo
     tilix
+    transmission-gtk
     wl-clipboard
   ];
 
