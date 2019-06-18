@@ -184,7 +184,6 @@
   services.flatpak.enable = true;
   services.packagekit.enable = true;
   services.gnome3.gpaste.enable = true;
-  services.gnome3.chrome-gnome-shell.enable = true;
   services.usbmuxd.enable = true;
 
   services.openssh = {
