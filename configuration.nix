@@ -47,10 +47,6 @@
     wget
 
     # Gnome
-    gnome3.cheese
-    gnome3.geary
-    gnome3.gnome-boxes
-    gnome3.gnome-dictionary
     gnome3.zenity
     gnomeExtensions.caffeine
     gnomeExtensions.nohotcorner
@@ -86,6 +82,8 @@
     cquery
     flatpak-builder
     gcc
+    gnome3.gitg
+    gnome3.gnome-boxes
     gnome-builder
     gnumake
     nix-prefetch-github
@@ -110,7 +108,9 @@
     firefox
     qutebrowser
 
-    # Chat
+    # Chat/Email
+    gnome3.cheese
+    gnome3.geary
     hexchat
     riot-desktop
     skype
