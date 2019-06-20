@@ -128,10 +128,11 @@
     celestia
     ghostscript
     inkscape
-    lastpass-cli
     ledger
     libreoffice
     meteo
+    pass
+    qtpass
     tilix
     transmission-gtk
     wl-clipboard
