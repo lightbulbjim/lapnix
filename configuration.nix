@@ -33,6 +33,7 @@
     file
     fortune
     git
+    gnupg
     links
     lshw
     lsof
