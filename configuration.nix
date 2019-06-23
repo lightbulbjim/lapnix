@@ -47,10 +47,14 @@
     vim
     wget
 
-    # Gnome
+    # Desktop
     gnome3.zenity
     gnomeExtensions.caffeine
     gnomeExtensions.nohotcorner
+    qgnomeplatform
+    qt4
+    qt5.qtwayland
+    qt5ct
 
     # Games
     brogue
@@ -153,6 +157,8 @@
   environment.variables = {
     MOZ_USE_XINPUT2 = "1";
     MOZ_ENABLE_WAYLAND = "1";
+    #QT_QPA_PLATFORM = "wayland";
+    QT_QPA_PLATFORMTHEME = "qt5ct";
   };
 
   programs.vim.defaultEditor = true;
