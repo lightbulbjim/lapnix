@@ -48,6 +48,7 @@
     wget
 
     # Desktop
+    gnome3.orca
     gnome3.zenity
     gnomeExtensions.caffeine
     gnomeExtensions.nohotcorner
@@ -88,6 +89,7 @@
     flatpak-builder
     gcc
     gnome3.gitg
+    gnome3.glade
     gnome3.gnome-boxes
     gnome-builder
     gnumake
