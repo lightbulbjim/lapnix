@@ -134,6 +134,7 @@
     bibletime
     celestia
     ghostscript
+    gnome-latex
     inkscape
     ledger
     libreoffice
