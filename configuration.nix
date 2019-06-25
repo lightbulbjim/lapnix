@@ -48,6 +48,9 @@
     wget
 
     # Desktop
+    adwaita-qt
+    gnome3.gnome-themes-standard
+    gnome3.gnome-themes-extra
     gnome3.orca
     gnome3.zenity
     gnomeExtensions.caffeine
@@ -61,7 +64,6 @@
     brogue
     crawlTiles
     dosbox
-    freeciv_gtk
     hyperrogue
     nethack
     openrct2
