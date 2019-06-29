@@ -28,6 +28,7 @@
   environment.systemPackages = with pkgs; [
     # Core
     bind
+    borgbackup
     coreutils
     cryptsetup
     file
