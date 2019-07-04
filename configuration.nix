@@ -65,6 +65,7 @@
     brogue
     crawlTiles
     dosbox
+    gnome3.aisleriot
     hyperrogue
     nethack
     openrct2
