@@ -83,6 +83,7 @@
     handbrake
     mpv
     lame
+    lollypop
     mediainfo
     vorbisTools
     youtube-dl
