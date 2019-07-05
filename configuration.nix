@@ -36,6 +36,7 @@
     git
     gnupg
     links
+    lm_sensors
     lshw
     lsof
     nix-index
