@@ -87,6 +87,7 @@
     lame
     lollypop
     mediainfo
+    playerctl
     vorbisTools
     youtube-dl
 
