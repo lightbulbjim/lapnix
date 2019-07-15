@@ -245,6 +245,12 @@
     extraConfig = ''
       CPU_SCALING_GOVERNOR_ON_AC=performance
       CPU_SCALING_GOVERNOR_ON_BAT=powersave
+
+      # Always allow phone charging
+      USB_BLACKLIST_PHONE=1
+
+      # Touchpad isn't reported as usbhid so isn't blacklisted by default
+      USB_BLACKLIST="06cb:009a"
     '';
   };
 
