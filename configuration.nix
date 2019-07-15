@@ -131,7 +131,8 @@
     slack-dark
 
     # Photography
-    gimp-with-plugins
+    #gimp-with-plugins
+    gimp
     graphicsmagick-imagemagick-compat
     rapid-photo-downloader
     shotwell
@@ -151,6 +152,9 @@
     tilix
     transmission-gtk
     wl-clipboard
+    yubikey-manager-qt
+    yubikey-personalization-gui
+    yubioath-desktop
   ];
 
   environment.gnome3.excludePackages = with pkgs.gnome3; [
@@ -205,6 +209,11 @@
   services.packagekit.enable = true;
   services.gnome3.gpaste.enable = true;
   services.usbmuxd.enable = true;
+  services.pcscd.enable = true;  # Needed for Yubikey CCID mode
+
+  services.udev.packages = [
+    pkgs.yubikey-personalization
+  ];
 
   services.openssh = {
     enable = false;
