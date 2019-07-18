@@ -39,6 +39,7 @@
     lm_sensors
     lshw
     lsof
+    magic-wormhole
     nix-index
     parallel
     powertop
