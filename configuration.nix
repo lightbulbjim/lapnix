@@ -144,6 +144,7 @@
     celestia
     ghostscript
     gnome-latex
+    golden-cheetah
     inkscape
     ledger
     libreoffice
