@@ -58,7 +58,6 @@
     gnome3.zenity
     gnomeExtensions.caffeine
     gnomeExtensions.nohotcorner
-    qgnomeplatform
     qt4
     qt5.qtwayland
     qt5ct
@@ -174,7 +173,7 @@
     MOZ_USE_XINPUT2 = "1";
     MOZ_ENABLE_WAYLAND = "1";
     #QT_QPA_PLATFORM = "wayland";
-    #QT_WAYLAND_FORCE_DPI = "110";
+    QT_WAYLAND_FORCE_DPI = "110";
     QT_QPA_PLATFORMTHEME = "qt5ct";
   };
 
