@@ -56,8 +56,10 @@
     gnome3.gnome-themes-extra
     gnome3.orca
     gnome3.zenity
+    gnomeExtensions.appindicator
     gnomeExtensions.caffeine
     gnomeExtensions.nohotcorner
+    gnomeExtensions.sound-output-device-chooser
     qt4
     qt5.qtwayland
     qt5ct
@@ -161,9 +163,6 @@
     gnome-music
     gnome-photos
   ];
-
-  services.gnome3.chrome-gnome-shell.enable = true;
-  nixpkgs.config.firefox.enableGnomeExtensions = true;
 
   environment.shellAliases = {
     mplayer = "mpv";
