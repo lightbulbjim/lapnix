@@ -162,6 +162,9 @@
     gnome-photos
   ];
 
+  services.gnome3.chrome-gnome-shell.enable = true;
+  nixpkgs.config.firefox.enableGnomeExtensions = true;
+
   environment.shellAliases = {
     mplayer = "mpv";
   };
