@@ -131,7 +131,6 @@
     slack-dark
 
     # Photography
-    #gimp-with-plugins
     gimp
     graphicsmagick-imagemagick-compat
     rapid-photo-downloader
@@ -147,7 +146,6 @@
     inkscape
     ledger
     libreoffice
-    meteo
     pass
     qtpass
     tilix
@@ -162,7 +160,6 @@
     evolution
     gnome-music
     gnome-photos
-    gnome-weather
   ];
 
   environment.shellAliases = {
