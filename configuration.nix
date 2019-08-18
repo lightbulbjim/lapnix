@@ -175,6 +175,7 @@
     #QT_QPA_PLATFORM = "wayland";
     QT_WAYLAND_FORCE_DPI = "110";
     QT_QPA_PLATFORMTHEME = "qt5ct";
+    SDL_HINT_VIDEO_MINIMIZE_ON_FOCUS_LOSS = "0";
   };
 
   programs.vim.defaultEditor = true;
