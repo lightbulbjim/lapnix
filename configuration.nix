@@ -174,7 +174,7 @@
     #QT_QPA_PLATFORM = "wayland";
     QT_WAYLAND_FORCE_DPI = "110";
     QT_QPA_PLATFORMTHEME = "qt5ct";
-    SDL_HINT_VIDEO_MINIMIZE_ON_FOCUS_LOSS = "0";
+    SDL_VIDEO_MINIMIZE_ON_FOCUS_LOSS = "0";
   };
 
   programs.vim.defaultEditor = true;
@@ -245,8 +245,8 @@
   services.tlp = {
     enable = true;
     extraConfig = ''
-      CPU_SCALING_GOVERNOR_ON_AC=performance
-      CPU_SCALING_GOVERNOR_ON_BAT=powersave
+      CPU_HWP_ON_AC=performance
+      CPU_HWP_ON_BAT=balance_performance
     '';
   };
 
