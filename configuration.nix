@@ -108,7 +108,6 @@
     python3
     ruby
     vscode
-    zeal
 
     # Ebooks
     calibre
@@ -144,7 +143,6 @@
     celestia
     ghostscript
     gnome-latex
-    golden-cheetah
     inkscape
     ledger
     libreoffice
