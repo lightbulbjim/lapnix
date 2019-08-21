@@ -169,8 +169,8 @@
   environment.variables = {
     MOZ_USE_XINPUT2 = "1";
     MOZ_ENABLE_WAYLAND = "1";
-    QT_QPA_PLATFORM = "wayland";
-    QT_WAYLAND_FORCE_DPI = "110";
+    #QT_QPA_PLATFORM = "wayland";
+    #QT_WAYLAND_FORCE_DPI = "110";
     QT_QPA_PLATFORMTHEME = "qt5ct";
     SDL_VIDEO_MINIMIZE_ON_FOCUS_LOSS = "0";
   };
