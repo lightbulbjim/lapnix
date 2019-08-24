@@ -126,6 +126,7 @@
     # Chat/Email
     gnome3.cheese
     gnome3.geary
+    irccloud
     riot-desktop
     skype
     slack-dark
