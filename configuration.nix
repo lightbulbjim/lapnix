@@ -238,7 +238,6 @@
 
   services.xserver = {
     enable = true;
-    xkbOptions = "caps:backspace";
     displayManager.gdm.enable = true;
     desktopManager.gnome3.enable = true;
   };
