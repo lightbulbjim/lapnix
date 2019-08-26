@@ -46,6 +46,7 @@
     powertop
     s-tui
     screen
+    stress
     tree
     unzip
     usbutils
