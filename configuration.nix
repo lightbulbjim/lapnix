@@ -50,7 +50,6 @@
     tree
     unzip
     usbutils
-    vim
     wget
 
     # Desktop
