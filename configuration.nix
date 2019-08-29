@@ -148,6 +148,7 @@
     ledger
     libreoffice
     pass
+    qemu
     qtpass
     tilix
     transmission-gtk
