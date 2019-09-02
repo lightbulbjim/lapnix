@@ -6,7 +6,6 @@
   imports =
     [
       ./hardware-configuration.nix
-      ./cpu-power.nix
     ];
 
   # UEFI me
@@ -206,6 +205,16 @@
     package = pkgs.pulseaudioFull;
     support32Bit = true;  # Needed for Steam
     extraModules = [ pkgs.pulseaudio-modules-bt ];
+  };
+
+  services.tlp = {
+    enable = true;
+    extraConfig = ''
+      CPU_SCALING_GOVERNOR_ON_AC=performance
+      CPU_SCALING_GOVERNOR_ON_BAT=powersave
+      CPU_HWP_ON_AC=performance
+      CPU_HWP_ON_BAT=balance_performance
+    '';
   };
 
   services.flatpak.enable = true;
