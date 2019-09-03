@@ -75,6 +75,7 @@
     openttd
     steam
     steam-run-native
+    #(steam.override { extraLibraries = pkgs: [ openssl_1_0_2 ]; nativeOnly = true; }).run  # for AoW3
     wesnoth
 
     # Multimedia
@@ -219,6 +220,7 @@
 
   services.flatpak.enable = true;
   services.packagekit.enable = true;
+  services.fwupd.enable = true;
   services.usbmuxd.enable = true;
   services.pcscd.enable = true;  # Needed for Yubikey CCID mode
 
