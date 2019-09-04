@@ -53,8 +53,11 @@
 
     # Desktop
     adwaita-qt
+    gnome3.gnome-nettool
+    gnome3.gnome-power-manager
     gnome3.gnome-themes-standard
     gnome3.gnome-themes-extra
+    gnome3.gnome-tweaks
     gnome3.orca
     gnome3.zenity
     gnomeExtensions.appindicator
@@ -68,14 +71,12 @@
     brogue
     crawlTiles
     dosbox
-    gnome3.aisleriot
     hyperrogue
     nethack
     openrct2
     openttd
     steam
     steam-run-native
-    #(steam.override { extraLibraries = pkgs: [ openssl_1_0_2 ]; nativeOnly = true; }).run  # for AoW3
     wesnoth
 
     # Multimedia
@@ -85,6 +86,7 @@
     ffmpeg
     filezilla
     flac
+    gnome3.gnome-sound-recorder
     handbrake
     mpv
     lame
@@ -98,6 +100,7 @@
     cquery
     flatpak-builder
     gcc
+    gnome3.ghex
     gnome3.gitg
     gnome3.glade
     gnome3.gnome-boxes
@@ -218,6 +221,7 @@
     '';
   };
 
+  services.gnome3.games.enable = true;
   services.flatpak.enable = true;
   services.packagekit.enable = true;
   services.fwupd.enable = true;
