@@ -76,7 +76,7 @@
     openrct2
     openttd
     steam
-    steam-run-native
+    (steam.override { extraPkgs = pkgs: [ at-spi2-atk ]; nativeOnly = true; }).run
     wesnoth
 
     # Multimedia
@@ -125,7 +125,6 @@
 
     # Browsers
     firefox
-    qutebrowser
 
     # Chat/Email
     gnome3.cheese
@@ -180,7 +179,6 @@
   };
 
   programs.vim.defaultEditor = true;
-  programs.gpaste.enable = true;
   programs.gphoto2.enable = true;
   programs.qt5ct.enable = true;
 
