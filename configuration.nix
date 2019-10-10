@@ -53,6 +53,7 @@
 
     # Desktop
     adwaita-qt
+    gnome3.dconf-editor
     gnome3.gnome-nettool
     gnome3.gnome-power-manager
     gnome3.gnome-themes-standard
@@ -60,15 +61,13 @@
     gnome3.gnome-tweaks
     gnome3.orca
     gnome3.zenity
-    gnomeExtensions.appindicator
-    gnomeExtensions.caffeine
-    gnomeExtensions.nohotcorner
-    gnomeExtensions.sound-output-device-chooser
+    qgnomeplatform
     qt4
     qt5.qtwayland
 
     # Games
     brogue
+    crafty
     crawlTiles
     dosbox
     hyperrogue
