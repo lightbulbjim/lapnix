@@ -75,7 +75,7 @@
     openrct2
     openttd
     steam
-    (steam.override { extraPkgs = pkgs: [ at-spi2-atk ]; nativeOnly = true; }).run
+    (steam.override { extraPkgs = pkgs: [ at-spi2-atk openssl_1_0_2 ]; nativeOnly = false; }).run
     wesnoth
 
     # Multimedia
