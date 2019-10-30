@@ -131,7 +131,7 @@
     irccloud
     riot-desktop
     skype
-    slack-dark
+    slack
 
     # Photography
     gimp
