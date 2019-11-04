@@ -180,6 +180,7 @@
   programs.vim.defaultEditor = true;
   programs.gphoto2.enable = true;
   programs.qt5ct.enable = true;
+  programs.gnupg.agent.enable = true;
 
   fonts = {
     enableFontDir = true;
