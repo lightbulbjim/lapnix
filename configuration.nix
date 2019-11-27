@@ -157,6 +157,7 @@
     yubikey-manager-qt
     yubikey-personalization-gui
     yubioath-desktop
+    zim
   ];
 
   environment.gnome3.excludePackages = with pkgs.gnome3; [
@@ -252,6 +253,7 @@
     enable = true;
     displayManager.gdm.enable = true;
     desktopManager.gnome3.enable = true;
+    desktopManager.default = "Gnome";
   };
 
   i18n.consoleUseXkbConfig = true;
