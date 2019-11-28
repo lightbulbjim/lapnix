@@ -253,7 +253,7 @@
     enable = true;
     displayManager.gdm.enable = true;
     desktopManager.gnome3.enable = true;
-    desktopManager.default = "Gnome";
+    desktopManager.default = "none";
   };
 
   i18n.consoleUseXkbConfig = true;
