@@ -253,10 +253,9 @@
     enable = true;
     displayManager.gdm.enable = true;
     desktopManager.gnome3.enable = true;
-    desktopManager.default = "none";
   };
 
-  i18n.consoleUseXkbConfig = true;
+  console.useXkbConfig = true;
 
   security.pam.services = {
     gdm.enableGnomeKeyring = true;
