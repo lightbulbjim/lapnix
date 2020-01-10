@@ -115,7 +115,6 @@
     # Ebooks
     calibre
     python27Packages.pycrypto
-    sigil
 
     # CAD
     freecad
@@ -151,7 +150,6 @@
     pass
     qemu
     qtpass
-    tilix
     transmission-gtk
     wl-clipboard
     yubikey-manager-qt
